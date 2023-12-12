@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JF About</title>
+  
+  <!--Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!--Purecss.io CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-min.css">
+
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;724&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--skip links--> 
+  <div class="skip">
+    <ul class="skip-links"> <!--skip links-->
+      <li><a href="#main-nav">Skip to main nav</a></li>
+      <li><a href="#main-content">Skip to main content</a></li>
+    </ul>
+  </div>
+
+    
+  <div class="container-main" id="top">  <!--Back to Top-->
+      
+    <header>
+      <div class="row justify-content-start text-white">
+        
+        <!-- Logo and header -->
+        <div class="col-8">
+          <div class="header-logo d-inline-flex align-text-top">
+            <a href="index.html">
+            <img alt="Brand logo" src="/images/johely-franco-logo-expanded.png"></a>
+                  
+            <div class="col-8 px-2">
+              <h1 class="fs-1 fw-bold py-3">UX/UI</h1>
+              <h3>Johely Franco</h3>
+              <h3>Designer</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Divider -->
+      <div class="divider py-1 mt-2"></div>
+    </header>
+
+    <!-- navbar -->  
+    <div class="row justify-content-center fs-3 px-0">
+      <div class="col-6">
+        <nav class="navbar navbar-dark navbar-expand-lg navbar-expand-md d-sm-none d-md-block" role="navigation" id="main-nav">
+          <ul class="navbar-nav nav-underline text-uppercase text-center justify-content-center">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li> <!--It's not included in develop stage. It just decorative -->
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>      
+
+    
+
+
+    <main role="main" id="main-content">
+
+      <div class="text-white"> 
+        <div class="row justify-content-center">
+          <h2 class="fs-2 text-center py-4 fw-bold text-uppercase">About</h2>
+
+          <!--image-->
+          <div class="col-md-5 fs-3 text-center p-5">
+            <picture>
+              <source srcset="images/jf_picture-300_x_350.png 600w, images/jf_picture-500_x_600.png 1024w" sizes="(max-width: 600px) 600px, (max-width: 1024px) 1024px" type="image/svg+xml">
+              <img src="images/jf_picture.png" class="img-fluid" alt="Johely Franco image" height="300"> 
+            </picture>
+          </div>
+
+         <!--text-->
+         <div class="col-md-5 fs-4 text-md-right p-5 text-about">
+            <p>Johely Franco is a computer science engineer
+              with a passion for human experience design.
+              She has worked in the technology industry for
+              over 10 years and has delivered solutions by
+              implementing industry best practices. Her
+              goals are to build responsive and interactive
+              websites using her understanding of HTML,
+              CSS, JavaScript, React, and Bootstrap to
+              create user-centered solutions.
+            </p>
+          </div>
+
+        </div> <!--closes h2-->
+      </div> <!--closes about section-->
+      
+      
+      
+      <div class="d-grid gap-2 d-sm-flex justify-content-center">
+        <a class="btn btn-primary bsb-btn-xl d-block py-4 fw-bold fs-4 w-100" href="contact.html" role="button">Let's work together!</a>
+      </div>
+  
+
+    </main>
+
+    <footer>
+      <div class="py-5 text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p class="mb-md-0">(C) Copyrigth 2023 All rights reserved by <a href="https://www.linkedin.com/" class="external text-white">Johely Franco</a></p>
+            </div>
+            <div class="col-12 text-center">
+              <ul itemscope itemtype="https://schema.org/Person">
+                <li itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Location:
+                  <span itemprop="addressLocality">Ottawa</span>, 
+                  <span itemprop="addressCountry">Canada</span>
+                </li>
+              </ul>
+              <a href="index.html" aria-label="Back to the top of the page">Back to HOME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+     
+
+  </div> <!--container-->
+
+</body>
+</html>

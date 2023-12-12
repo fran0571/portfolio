@@ -1,0 +1,131 @@
+
+/* HTML5 display-role reset for older browsers */
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+body {
+  background-color: var(--bg-primary);
+  font-family: var(--body-font);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/*-------------------- final project----------------*/
+
+
+
+
+:root
+ {
+  --bs-primary: #20022D;
+  --bg-primary: #20022D;
+  --bg-light: purple;
+  --bs-primary-rgb: rgb(255, 2, 255); 
+  --bs-primary-text-emphasis: rgb(255, 72, 255); 
+  --bs-primary-bg-subtle: rgb(255, 72, 255); 
+  --bs-primary-border-subtle:rgb(2255, 72, 255); 
+  --bs-light-rgb:rgb(255, 72, 255); 
+  --bs-btn-bg:rgb(255, 72, 255);
+  --accent-color: rgb(255, 2, 255); 
+  --light-color: white;
+  --body-font: 'Open Sans', sans-serif, Arial, Helvetica;
+
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary-rgb); 
+  --bs-btn-border-color:var(--bs-primary-rgb); 
+  --bs-btn-hover-bg: var(--bg-light); 
+  --bs-btn-hover-border-color: var(--bs-primary-rgb); 
+  --bs-btn-focus-shadow-rgb:var(--bs-primary-rgb);
+  --bs-btn-active-bg: var(--bs-primary-rgb); 
+  --bs-btn-active-border-color: var(--bs-primary-rgb); 
+  --bs-btn-disabled-bg: var(--bs-primary-rgb);
+  --bs-btn-disabled-border-color:var(--bs-primary-rgb); 
+}
+
+.navbar-dark, .navbar {
+  --bs-navbar-color: white;
+  --bs-navbar-hover-color: var(--bs-primary-rgb);
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.container-main {
+ 
+  margin: 0 auto;
+  max-width: 84rem;
+  
+}
+
+
+/*HERO SECTION*/
+
+
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('/images/banner-1200_x_800.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:auto;
+  background-attachment: fixed;
+}
+
+.bgimage h2 {
+  padding-top: 12rem;
+
+}
+
+
+
+/******Skip-links*****/
+
+
+.skip ul a {
+  position: absolute;
+  top:-3em;
+  left:0px;
+  font-size: 1.6rem ;
+}
+
+.skip-links a:focus {
+  position:absolute;
+  top:0;
+  background-color: var(--bg-light);
+  color: var(--light-color);
+  left: 5px;
+}
+
+/***********/
+
+.portfolio-container {
+  padding: 3rem;
+  text-align: justify;
+}
+
+.text-about {
+  text-align: justify;
+}
+
+
+.divider {
+  background-color: var(--bs-primary-rgb);
+}
+
+
+
