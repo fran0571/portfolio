@@ -32,19 +32,23 @@
   </div>
 
     
+  
   <div class="container-main" id="top">  <!--Back to Top-->
-      
     <header>
       <div class="row justify-content-start text-white">
         
         <!-- Logo and header -->
         <div class="col-8">
-          <div class="header-logo d-inline-flex align-text-top">
+          <div class="header-logo d-inline-flex align-text-top img-fluid">
             <a href="index.html">
-            <img alt="Brand logo" src="/images/johely-franco-logo-expanded.png"></a>
+              <picture>
+                <source srcset="images/jf-logo-160_x_160.png 600w, images/jf-logo-250_x_250.png 1024w" sizes="(max-width: 600px) 600px, (max-width: 1024px) 1024px" type="image/svg+xml">
+                <img src="images/johely-franco-logo-expanded.png" alt="Brand logo picture" height="150"> 
+              </picture>
+            </a>
                   
             <div class="col-8 px-2">
-              <h1 class="fs-1 fw-bold py-3">UX/UI</h1>
+              <h1 class="fs-1 fw-bold py-2">UX/UI</h1>
               <h3>Johely Franco</h3>
               <h3>Designer</h3>
             </div>
@@ -56,7 +60,7 @@
       <!-- Divider -->
       <div class="divider py-1 mt-2"></div>
     </header>
-
+    
 
     
     <!-- navbar -->  
@@ -66,7 +70,7 @@
           <ul class="navbar-nav nav-underline text-uppercase text-center justify-content-center">
             <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li> <!--It's not included in develop stage. It just decorative -->
+            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li> 
             <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
           </ul>
         </nav>
@@ -78,33 +82,33 @@
     <main role="main" id="main-content">
       <div class="text-white portfolio-container">
         <h2 class="fs-2 text-center py-4 fw-bold text-uppercase">Portfolio</h2>
-        <h3 class="fs-3 text-start py-4 fw-bold text-uppercase">Bakery Shop project</h3>
+        <h3 class="fs-3 text-start py-4 fw-bold text-uppercase">Bakery Shop - Web site project</h3>
         <div class="pure-g justify-content-center">
           
           <div class="pure-u-2-2">
-              <!-- image -->  
-              <picture>
-                <source srcset="images/asset1-400_x_600.png 600w, images/asset1-600_x_900.png 1024w" sizes="(max-width: 600px) 600px, (max-width: 1024px) 1024px" type="image/svg+xml">
-                <img src="images/asset.png" class="img-fluid" alt="Header image about a website project" height="300"> 
-              </picture> 
+            <!-- image -->  
+            <picture>
+              <source srcset="images/asset1-400_x_600.png 600w, images/asset1-600_x_900.png 1024w" sizes="(max-width: 600px) 600px, (max-width: 1024px) 1024px" type="image/svg+xml">
+              <img src="images/asset.png" class="img-fluid" alt="Header image about a website project" height="300"> 
+            </picture> 
           </div>
           
 
           <div class="pure-u-3-2">
-              <div class="l-box">
-                <p class="fs-4">Velvet Bakery is a home-based brand transitioning to a formal business. The project consists of branding and website design with elegant, joyful and fun tones that highlight the uniqueness of their products with a taste for every mood.    
-                </p>
-              </div>
+            <div class="l-box">
+              <p class="fs-4 py-4">Velvet Bakery is a home-based brand transitioning to a formal business. The project consists of branding and website design with elegant, joyful and fun tones that highlight the uniqueness of their products with a taste for every mood.    
+              </p>
+            </div>
           </div>
 
         </div>
       </div>
 
+      <!-- Button --> 
       <div class="d-grid gap-2 d-sm-flex justify-content-center">
         <a class="btn btn-primary bsb-btn-xl d-block py-4 fw-bold fs-4 w-100" href="contact.html" role="button">Let's work together!</a>
       </div>
   
-
     </main>
     
     <!--footer-->

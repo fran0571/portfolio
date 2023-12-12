@@ -22,9 +22,6 @@ body {
 
 /*-------------------- final project----------------*/
 
-
-
-
 :root
  {
   --bs-primary: #20022D;
@@ -84,10 +81,11 @@ body {
   background-position: center;
   background-size:auto;
   background-attachment: fixed;
+  background-color: #130028;
 }
 
 .bgimage h2 {
-  padding-top: 12rem;
+  padding-top: 13.5rem;
 
 }
 

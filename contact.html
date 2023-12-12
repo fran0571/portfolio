@@ -38,12 +38,16 @@
         
         <!-- Logo and header -->
         <div class="col-8">
-          <div class="header-logo d-inline-flex align-text-top">
+          <div class="header-logo d-inline-flex align-text-top img-fluid">
             <a href="index.html">
-            <img alt="Brand logo" src="/images/johely-franco-logo-expanded.png"></a>
+              <picture>
+                <source srcset="images/jf-logo-160_x_160.png 600w, images/jf-logo-250_x_250.png 1024w" sizes="(max-width: 600px) 600px, (max-width: 1024px) 1024px" type="image/svg+xml">
+                <img src="images/johely-franco-logo-expanded.png" alt="Brand logo picture" height="150"> 
+              </picture>
+            </a>
                   
             <div class="col-8 px-2">
-              <h1 class="fs-1 fw-bold py-3">UX/UI</h1>
+              <h1 class="fs-1 fw-bold py-2">UX/UI</h1>
               <h3>Johely Franco</h3>
               <h3>Designer</h3>
             </div>
@@ -65,7 +69,7 @@
           <ul class="navbar-nav nav-underline text-uppercase text-center justify-content-center">
             <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li> <!--It's not included in develop stage. It just decorative -->
+            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li> 
             <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
           </ul>
         </nav>
@@ -85,7 +89,7 @@
           <div class="col-md-5 fs-3 text-center p-5">
             <picture>
               <source srcset="images/contact_image-400_x_200.png 600w, images/contact_image-800_x_400.png 1024w" sizes="(max-width: 600px) 600px, (max-width: 1024px) 1024px" type="image/svg+xml">
-              <img src="images/contact_image.png" class="img-fluid" alt="Header image about contact media" height="300"> 
+              <img src="images/contact_image.png" class="img-fluid" alt="Header image decorative" height="300"> 
             </picture> 
           </div>
         
@@ -118,6 +122,7 @@
         </div> <!--closes h2-->
       </div> <!--closes Contact section-->
       
+      <!-- Button --> 
       <div class="d-grid gap-2 d-sm-flex justify-content-center">
         <button class="btn btn-primary bsb-btn-xl d-block py-4 fw-bold fs-4 w-100 text-uppercase" type="submit">Submit form</button>
       </div>
